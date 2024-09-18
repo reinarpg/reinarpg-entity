@@ -4,7 +4,7 @@ const EventEmitter = require('events').EventEmitter
 module.exports = (registryOrVersion) => {
   const registry = typeof registryOrVersion === 'string' ? require('prismarine-registry')(registryOrVersion) : registryOrVersion
   const ChatMessage = require('prismarine-chat')(registry)
-  const Item = require('prismarine-item')(registry)
+  const Item = require('reinarpg-item')(registry)
   class Entity extends EventEmitter {
     constructor (id) {
       super()

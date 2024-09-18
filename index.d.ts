@@ -1,13 +1,13 @@
 /// <reference types="node" />
 /// <reference types="vec3" />
-/// <reference types="prismarine-item" />
+/// <reference types="reinarpg-item" />
 
 import {EventEmitter} from 'events';
 import { Vec3 } from 'vec3';
-import { Item } from 'prismarine-item';
+import { Item } from 'reinarpg-item';
 import { ChatMessage } from 'prismarine-chat';
 
-declare module 'prismarine-entity' {
+declare module 'reinarpg-entity' {
     export interface Effect {
         id: number;
         amplifier: number;
