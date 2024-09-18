@@ -2,8 +2,8 @@ const Vec3 = require('vec3').Vec3
 const EventEmitter = require('events').EventEmitter
 
 module.exports = (registryOrVersion) => {
-  const registry = typeof registryOrVersion === 'string' ? require('prismarine-registry')(registryOrVersion) : registryOrVersion
-  const ChatMessage = require('prismarine-chat')(registry)
+  const registry = typeof registryOrVersion === 'string' ? require('reinarpg-registry')(registryOrVersion) : registryOrVersion
+  const ChatMessage = require('reinarpg-chat')(registry)
   const Item = require('reinarpg-item')(registry)
   class Entity extends EventEmitter {
     constructor (id) {

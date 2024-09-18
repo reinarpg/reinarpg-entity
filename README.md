@@ -136,7 +136,7 @@ The player
 
 #### entity.getCustomName()
 
-returns a `prismarine-chat` ChatMessage object for the name of the entity or null if there isn't one
+returns a `reinarpg-chat` ChatMessage object for the name of the entity or null if there isn't one
 
 #### entity.getDroppedItem()
 

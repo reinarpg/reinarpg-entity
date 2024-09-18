@@ -13,9 +13,9 @@
     "url": "https://github.com/PrismarineJS/reinarpg-entity.git"
   },
   "dependencies": {
-    "prismarine-chat": "^1.4.1",
-    "reinarpg-item": "^1.11.2",
-    "prismarine-registry": "^1.4.0",
+    "reinarpg-chat": "github:reinarpg/reinarpg-chat",
+    "reinarpg-item": "github:reinarpg/reinarpg-item",
+    "reinarpg-registry": "github:reinarpg/reinarpg-registry",
     "vec3": "^0.1.4"
   },
   "keywords": [

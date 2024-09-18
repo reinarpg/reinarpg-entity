@@ -5,7 +5,7 @@
 import {EventEmitter} from 'events';
 import { Vec3 } from 'vec3';
 import { Item } from 'reinarpg-item';
-import { ChatMessage } from 'prismarine-chat';
+import { ChatMessage } from 'reinarpg-chat';
 
 declare module 'reinarpg-entity' {
     export interface Effect {
